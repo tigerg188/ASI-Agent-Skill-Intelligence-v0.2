@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Theme Body Foundations */
+body.theme-developer_black {
+  background-color: #020617;
+  color: #f8fafc;
+}
+
+body.theme-office_gray {
+  background-color: #f8f9fa;
+  color: #202124;
+}
+
+body.theme-soft_pink {
+  background-color: #fff5f7;
+  color: #4c1d24;
+}
+
+/* Custom crisp scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body.theme-developer_black ::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.25);
+  border-radius: 9999px;
+}
+body.theme-developer_black ::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.45);
+}
+
+body.theme-office_gray ::-webkit-scrollbar-thumb {
+  background: rgba(95, 99, 104, 0.25);
+  border-radius: 9999px;
+}
+body.theme-office_gray ::-webkit-scrollbar-thumb:hover {
+  background: rgba(95, 99, 104, 0.45);
+}
+
+body.theme-soft_pink ::-webkit-scrollbar-thumb {
+  background: rgba(225, 29, 72, 0.2);
+  border-radius: 9999px;
+}
+body.theme-soft_pink ::-webkit-scrollbar-thumb:hover {
+  background: rgba(225, 29, 72, 0.35);
+}
